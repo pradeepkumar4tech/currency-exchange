@@ -17,7 +17,7 @@ public class CurrencyExchangeController {
 	@Autowired
 	private Environment environment;
 
-	@Autowired
+	@Autowired(required = true)
 	private CurrencyExchangeEntitty currencyExchangeEntitty;
 
 	@GetMapping("/currency-exchange/from/{from}/to/{to}")
