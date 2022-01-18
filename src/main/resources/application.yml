@@ -1,0 +1,7 @@
+eureka:
+  client:
+    region: default
+    availability-zones:
+      default: default-zone
+    service-url:
+      default-zone: http://localhost:8761/eureka/
